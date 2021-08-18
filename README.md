@@ -5,6 +5,7 @@
  Laptop.webPage = The url you want to be shown as an iframe.
  
  Laptop.webPageTitle = The tab title for the browser UI.
+ 
  Laptop.webPageUrl = The URL for the browser UI.
  
  ### Changing the resource name
