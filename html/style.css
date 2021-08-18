@@ -1,0 +1,164 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.laptop {
+    display: none;
+    position: fixed;
+    background-image: url('https://i.insider.com/5dd42a3e7eece50609155eae?width=1200&format=jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.bottombar {
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    height: 5vh;
+    width: 100%;
+}
+
+.bottombar div {
+    display: inline-block;
+}
+
+.home-icon {
+    padding: 1.5vh;
+    color: white;
+    width: 2vh;
+}
+
+.home-icon:hover {
+    color: #2196F3;
+    background-color: #424242;
+    transition: ease 0.5s;
+}
+
+.iconbar {
+    padding-left: 1vh;
+}
+
+.iconbar div {
+    display: inline-block;
+}
+
+.w-icon {
+    padding: 1.5vh;
+    border-bottom: 2px solid transparent;
+}
+
+.w-icon:hover {
+    background-color: #424242;
+    transition: ease 0.5s;
+}
+
+.selected {
+    background-color: #424242;
+    border-bottom: 2px solid white;
+}
+
+.iframe {
+    display: none;
+    top: 10vh;
+    left: 16vh;
+    height: 80vh;
+    width: 120vh;
+    position: absolute;
+    background-color: #FAFAFA;
+}
+
+.iframe-topbar {
+    width: 100%;
+    color: black;
+    height: 3.5vh;
+    background-color: #E0E0E0;
+}
+
+.iframe-window-title {
+    padding: 1vh;
+    font-size: 1.4vh;
+    font-weight: 600;
+}
+
+.iframe-close-button {
+    top: 20vh;
+    float: right;
+    background-color: #C62828;
+    color: white;
+    padding-top: 0.93vh;
+    padding-bottom: 0.93vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.iframe-close-button:hover {
+    background-color: #e05b5b;
+    transition: ease 0.5s;
+}
+
+.iframe-searchbar {
+    width: 100%;
+    color: black;
+    height: 4.6vh;
+    background-color: #F5F5F5;
+}
+
+.iframe-searchbar-container {
+    padding-top: 0.62vh;
+    padding-left: 1vh;
+}
+
+.iframe-searchbar-input {
+    padding: 0.8vh;
+    background-color: #e7e7e7;
+    width: 90vh;
+    border-radius: 2vh;
+}
+
+.iframe-searchbar-input p {
+    margin: 0;
+    padding: 0;
+    padding-left: 1vh;
+    line-height: 1;
+    color: rgb(95, 95, 95);
+}
+
+.iframe-searchbar-input mark {
+    color: green;
+    background-color: transparent;
+}
+
+.iframe-window-title mark {
+    background-color: transparent;
+    font-weight: normal;
+    margin-left: 1vh;
+    font-size: 1.2vh;
+}
+
+.iframe-browser-icon {
+    margin-left: 0.5vh;
+    color: rgb(95, 95, 95);
+    font-size: 1.5vh;
+    padding: 0.8vh;
+    padding-left: 1.2vh;
+    padding-right: 1.2vh;
+    background-color: #e9e9e9;
+    border-radius: 0.7vh;
+}
+
+.iframe-browser-icon:hover {
+    background-color: #d6d6d6;
+    transition: ease 0.5s;
+}
+
+.iframe-browser-icons div {
+    display: inline-block;
+}
+
+.iframe-browser-firsticons div {
+    display: inline-block;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <body>
+        <div class="laptop">
+
+            <div class="iframe">
+                <div class="iframe-topbar">
+                    <div class="iframe-window-title">
+                        <i class="fab fa-edge" style="margin-right:0.5vh;"></i> Microsoft Edge <mark id="tabTitle"></mark>
+                        <span class="iframe-close-button" id="closelaptop" style="margin-top:-1vh;margin-right:-1vh;">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="iframe-searchbar">
+                    <div class="iframe-searchbar-container">
+                        <span class="iframe-browser-firsticons" style="float:left;">
+                            <div class="iframe-browser-icon">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                            <div class="iframe-browser-icon">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </span>
+                        <div class="iframe-searchbar-input" style="margin-left:10vh;margin-top:0.15vh;">
+                            <p>
+                                <mark><i class="fas fa-lock" style="margin-right:0.5vh;"></i> https://</mark><span id="pageUrl"></span>
+                                <span style="float:right;margin-right:0.5vh;">
+                                    <i class="fas fa-star" style="color:#FFAB00;margin-right:0.5vh;"></i>
+                                    <i class="fas fa-redo-alt"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <span class="iframe-browser-icons" style="float:right;margin-top:-3.3vh;padding-right:2vh;">
+                            <div class="iframe-browser-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="iframe-browser-icon">
+                                <i class="fas fa-bookmark"></i>
+                            </div>
+                            <div class="iframe-browser-icon">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div id="iframeLocation"></div>
+                
+            </div>
+
+
+            <div class="bottombar">
+                <div class="home-icon">
+                    <i class="fab fa-windows"></i>
+                </div>
+
+                <div class="iconbar">
+                    <div class="w-icon selected">
+                        <i class="fab fa-edge"></i>
+                    </div>
+                    <div class="w-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <div class="w-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+       </body>
+    <script src="./app.js"></script>
+</html>
+
+
+
+
+
